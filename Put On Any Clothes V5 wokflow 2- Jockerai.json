@@ -1,0 +1,1269 @@
+{
+  "id": "8a4d3959-0cb6-4d53-a0b8-da0a63c51481",
+  "revision": 0,
+  "last_node_id": 172,
+  "last_link_id": 259,
+  "nodes": [
+    {
+      "id": 65,
+      "type": "Note",
+      "pos": [
+        -157,
+        -764
+      ],
+      "size": [
+        2101.0859375,
+        292.582275390625
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "     ██╗ ██████╗  ██████╗██╗  ██╗███████╗██████╗     █████╗ ██╗\n     ██║██╔═══██╗██╔════╝██║ ██╔╝██╔════╝██╔══██╗   ██╔══██╗██║\n     ██║██║   ██║██║     █████╔╝ █████╗  ██████╔╝   ███████║██║\n██   ██║██║   ██║██║     ██╔═██╗ ██╔══╝  ██╔══██╗   ██╔══██║██║\n╚█████╔╝╚██████╔╝╚██████╗██║  ██╗███████╗██║  ██║██╗██║  ██║██║\n ╚════╝  ╚═════╝  ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝╚═╝\n                                                               \nhttps://whop.com/jockerai\nYoutube : https://www.youtube.com/@jockerai \nTelegram : https://t.me/jokerrai\nCivitai : https://civitai.com/user/jockerai\nSeaArt Ai Apps : https://www.seaart.ai/user/49d100881342c1ba39a8ebfdc930f8d5\n.\nBoosty (for Russian members) : https://boosty.to/jockerai"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 76,
+      "type": "VAEDecode",
+      "pos": [
+        1586.9193115234375,
+        1623.8565673828125
+      ],
+      "size": [
+        210,
+        46
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 20,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 138
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 139
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            248,
+            255
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.60",
+        "Node name for S&R": "VAEDecode"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 72,
+      "type": "InpaintModelConditioning",
+      "pos": [
+        158.0987091064453,
+        2067.44384765625
+      ],
+      "size": [
+        359.38427734375,
+        454.4543762207031
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 18,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 236
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 237
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 130
+        },
+        {
+          "name": "pixels",
+          "type": "IMAGE",
+          "link": 246
+        },
+        {
+          "name": "mask",
+          "type": "MASK",
+          "link": 258
+        }
+      ],
+      "outputs": [
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "slot_index": 0,
+          "links": [
+            135
+          ]
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "slot_index": 1,
+          "links": [
+            136
+          ]
+        },
+        {
+          "name": "latent",
+          "type": "LATENT",
+          "slot_index": 2,
+          "links": [
+            137
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.60",
+        "Node name for S&R": "InpaintModelConditioning"
+      },
+      "widgets_values": [
+        true
+      ]
+    },
+    {
+      "id": 164,
+      "type": "TextEncodeQwenImageEditPlus",
+      "pos": [
+        143.60324096679688,
+        2071.498291015625
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 239
+        },
+        {
+          "name": "vae",
+          "shape": 7,
+          "type": "VAE",
+          "link": null
+        },
+        {
+          "name": "image1",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image2",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image3",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            237
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.59",
+        "Node name for S&R": "TextEncodeQwenImageEditPlus"
+      },
+      "widgets_values": [
+        ""
+      ],
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 146,
+      "type": "Note",
+      "pos": [
+        -277.47296142578125,
+        1008.6630859375
+      ],
+      "size": [
+        518.7688598632812,
+        196.560791015625
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "     ██╗ ██████╗  ██████╗██╗  ██╗███████╗██████╗     █████╗ ██╗\n     ██║██╔═══██╗██╔════╝██║ ██╔╝██╔════╝██╔══██╗   ██╔══██╗██║\n     ██║██║   ██║██║     █████╔╝ █████╗  ██████╔╝   ███████║██║\n██   ██║██║   ██║██║     ██╔═██╗ ██╔══╝  ██╔══██╗   ██╔══██║██║\n╚█████╔╝╚██████╔╝╚██████╗██║  ██╗███████╗██║  ██║██╗██║  ██║██║\n ╚════╝  ╚═════╝  ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝╚═╝\n                                                               \nhttps://whop.com/jockerai/\nYoutube : https://www.youtube.com/@jockerai \nTelegram : https://t.me/jokerrai\nCivitai : https://civitai.com/user/jockerai\nSeaArt Ai Apps : https://www.seaart.ai/user/49d100881342c1ba39a8ebfdc930f8d5\n.\nBoosty (for Russian members) : https://boosty.to/jockerai"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 169,
+      "type": "UnetLoaderGGUF",
+      "pos": [
+        -586.0938720703125,
+        1449.3935546875
+      ],
+      "size": [
+        270,
+        58
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "ComfyUI-GGUF",
+        "ver": "be2a08330d7ec232d684e50ab938870d7529471e",
+        "Node name for S&R": "UnetLoaderGGUF"
+      },
+      "widgets_values": [
+        "flux1-kontext-dev-Q5_1.gguf"
+      ],
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 67,
+      "type": "UNETLoader",
+      "pos": [
+        -243.94677734375,
+        1508.885009765625
+      ],
+      "size": [
+        318.8011474609375,
+        83.26705932617188
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "slot_index": 0,
+          "links": [
+            217
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.60",
+        "Node name for S&R": "UNETLoader"
+      },
+      "widgets_values": [
+        "qwen_image_edit_2509_bf16_3.safetensors",
+        "fp8_e4m3fn"
+      ],
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 160,
+      "type": "CLIPLoader",
+      "pos": [
+        -247.60902404785156,
+        1639.486328125
+      ],
+      "size": [
+        330,
+        110
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "slot_index": 0,
+          "links": [
+            230
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.48",
+        "Node name for S&R": "CLIPLoader",
+        "models": [
+          {
+            "name": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+            "url": "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors",
+            "directory": "text_encoders"
+          }
+        ],
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65,
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+        "qwen_image",
+        "default"
+      ],
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 88,
+      "type": "Power Lora Loader (rgthree)",
+      "pos": [
+        -247.89111328125,
+        1794.7882080078125
+      ],
+      "size": [
+        329.7091979980469,
+        187.94720458984375
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "model",
+          "type": "MODEL",
+          "link": 217
+        },
+        {
+          "dir": 3,
+          "name": "clip",
+          "type": "CLIP",
+          "link": 230
+        }
+      ],
+      "outputs": [
+        {
+          "dir": 4,
+          "name": "MODEL",
+          "shape": 3,
+          "type": "MODEL",
+          "slot_index": 0,
+          "links": [
+            233
+          ]
+        },
+        {
+          "dir": 4,
+          "name": "CLIP",
+          "shape": 3,
+          "type": "CLIP",
+          "slot_index": 1,
+          "links": [
+            238,
+            239
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "0fb1e239a903e93ef626a8c20589b38f46e39dff",
+        "Show Strengths": "Single Strength"
+      },
+      "widgets_values": [
+        {},
+        {
+          "type": "PowerLoraLoaderHeaderWidget"
+        },
+        {
+          "on": true,
+          "lora": "Qwen-Image-Lightning-8steps-V2.0-bf16.safetensors",
+          "strength": 1,
+          "strengthTwo": null
+        },
+        {},
+        ""
+      ],
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 77,
+      "type": "LoadImage",
+      "pos": [
+        459.44329833984375,
+        2061.14501953125
+      ],
+      "size": [
+        779.5658569335938,
+        675.9732666015625
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            251
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "title": "Image 2 (clothing)",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.60",
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "openart-image_flKHc0AK_1756653929096_raw.jpg",
+        "image"
+      ]
+    },
+    {
+      "id": 78,
+      "type": "LoadImage",
+      "pos": [
+        -220.1953125,
+        2048.66650390625
+      ],
+      "size": [
+        637.8724365234375,
+        698.8113403320312
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            246,
+            252,
+            254
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "slot_index": 1,
+          "links": [
+            257
+          ]
+        }
+      ],
+      "title": "Image 1 (model)",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.60",
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "clipspace/clipspace-painted-masked-7539799.png [input]",
+        "image"
+      ]
+    },
+    {
+      "id": 162,
+      "type": "ModelSamplingAuraFlow",
+      "pos": [
+        126.260498046875,
+        1797.2054443359375
+      ],
+      "size": [
+        290,
+        60
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 233
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            231
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.48",
+        "Node name for S&R": "ModelSamplingAuraFlow",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65,
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        3
+      ]
+    },
+    {
+      "id": 161,
+      "type": "CFGNorm",
+      "pos": [
+        130.8177947998047,
+        1799.063720703125
+      ],
+      "size": [
+        290,
+        60
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 17,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 231
+        }
+      ],
+      "outputs": [
+        {
+          "name": "patched_model",
+          "type": "MODEL",
+          "links": [
+            232
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.50",
+        "Node name for S&R": "CFGNorm",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65,
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "strength": true
+          }
+        }
+      },
+      "widgets_values": [
+        1
+      ]
+    },
+    {
+      "id": 167,
+      "type": "MaskBlur+",
+      "pos": [
+        146.74267578125,
+        1797.4561767578125
+      ],
+      "size": [
+        270,
+        82
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "mask",
+          "type": "MASK",
+          "link": 257
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": [
+            258,
+            259
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui_essentials",
+        "ver": "1.1.0",
+        "Node name for S&R": "MaskBlur+"
+      },
+      "widgets_values": [
+        45,
+        "gpu"
+      ]
+    },
+    {
+      "id": 168,
+      "type": "PreviewMask_",
+      "pos": [
+        116.49696350097656,
+        1650.681640625
+      ],
+      "size": [
+        341.40411376953125,
+        309.2376708984375
+      ],
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "mask",
+          "type": "MASK",
+          "link": 259
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfyui-mixlab-nodes",
+        "ver": "0.46.0",
+        "Node name for S&R": "PreviewMask_"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 69,
+      "type": "VAELoader",
+      "pos": [
+        110.13603973388672,
+        1512.83984375
+      ],
+      "size": [
+        335.23748779296875,
+        73.1780776977539
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "slot_index": 0,
+          "links": [
+            130,
+            139,
+            253
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.60",
+        "Node name for S&R": "VAELoader"
+      },
+      "widgets_values": [
+        "qwen_image_vae.safetensors"
+      ],
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 74,
+      "type": "KSampler",
+      "pos": [
+        925.7158813476562,
+        1529.7896728515625
+      ],
+      "size": [
+        321.2200927734375,
+        474
+      ],
+      "flags": {},
+      "order": 19,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 232
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 135
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 136
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 137
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "slot_index": 0,
+          "links": [
+            138
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.60",
+        "Node name for S&R": "KSampler"
+      },
+      "widgets_values": [
+        580380077093847,
+        "randomize",
+        8,
+        1,
+        "euler_ancestral",
+        "normal",
+        0.97
+      ],
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 166,
+      "type": "Image Comparer (rgthree)",
+      "pos": [
+        2454.368896484375,
+        1530.644775390625
+      ],
+      "size": [
+        1154.39990234375,
+        1201.82958984375
+      ],
+      "flags": {},
+      "order": 22,
+      "mode": 0,
+      "inputs": [
+        {
+          "dir": 3,
+          "name": "image_a",
+          "type": "IMAGE",
+          "link": 254
+        },
+        {
+          "dir": 3,
+          "name": "image_b",
+          "type": "IMAGE",
+          "link": 255
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "0fb1e239a903e93ef626a8c20589b38f46e39dff",
+        "comparer_mode": "Slide"
+      },
+      "widgets_values": [
+        [
+          {
+            "name": "A",
+            "selected": true,
+            "url": "/api/view?filename=rgthree.compare._temp_hbttd_00001_.png&type=temp&subfolder=&rand=0.07592560507284407"
+          },
+          {
+            "name": "B",
+            "selected": true,
+            "url": "/api/view?filename=rgthree.compare._temp_hbttd_00002_.png&type=temp&subfolder=&rand=0.684170296657855"
+          }
+        ]
+      ],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 172,
+      "type": "Note",
+      "pos": [
+        -206.67872619628906,
+        2838.106201171875
+      ],
+      "size": [
+        616.4992065429688,
+        102.57843780517578
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "Note :\n\nRight click on the first image and choose \"Open in mask editor' and brush the areas for clothing then click save."
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 94,
+      "type": "SaveImage",
+      "pos": [
+        1291.4229736328125,
+        1523.0516357421875
+      ],
+      "size": [
+        1088.9915771484375,
+        1195.8251953125
+      ],
+      "flags": {},
+      "order": 21,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 248
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.60",
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "ComfyUI"
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 163,
+      "type": "TextEncodeQwenImageEditPlus",
+      "pos": [
+        480.92535400390625,
+        1524.0296630859375
+      ],
+      "size": [
+        423.769287109375,
+        461.3077697753906
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 238
+        },
+        {
+          "name": "vae",
+          "shape": 7,
+          "type": "VAE",
+          "link": 253
+        },
+        {
+          "name": "image1",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 252
+        },
+        {
+          "name": "image2",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 251
+        },
+        {
+          "name": "image3",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            236
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.59",
+        "Node name for S&R": "TextEncodeQwenImageEditPlus"
+      },
+      "widgets_values": [
+        "This woman in the image 1 is wearing the dress in image 2"
+      ],
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 159,
+      "type": "Label (rgthree)",
+      "pos": [
+        -284.1886901855469,
+        1232.6903076171875
+      ],
+      "size": [
+        1834.48828125,
+        144
+      ],
+      "flags": {
+        "allow_interaction": true
+      },
+      "order": 9,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Put On Any Clothes V5 - Jockerai",
+      "properties": {
+        "fontSize": 120,
+        "fontFamily": "roboto black",
+        "fontColor": "white",
+        "textAlign": "left",
+        "backgroundColor": "#05423a",
+        "padding": 12,
+        "borderRadius": 0
+      },
+      "color": "#fff0",
+      "bgcolor": "#fff0"
+    },
+    {
+      "id": 171,
+      "type": "MarkdownNote",
+      "pos": [
+        -852.8473510742188,
+        1570.20263671875
+      ],
+      "size": [
+        535.4102783203125,
+        664.281494140625
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Models download links and pathes🔗",
+      "properties": {},
+      "widgets_values": [
+        "Qwen Image Edit 2509 MAIN MODEL (GGUF) :\n\n[Download](https://huggingface.co/QuantStack/Qwen-Image-Edit-2509-GGUF/tree/main)\n\nPut it in this folder : \\ComfyUi Nunchaco\\ComfyUI-Nunchaku\\ComfyUI-Nunchaku\\ComfyUI-Easy-Install\\ComfyUI\\models\\diffusion_models\n\n----------------------------------------------------------------\nQwen Image Edit 2509 MAIN MODEL bf16 & Fp8:\n\n[Download](https://huggingface.co/Comfy-Org/Qwen-Image-Edit_ComfyUI/tree/main/split_files/diffusion_models)\n\nPut it in this folder : \\ComfyUi Nunchaco\\ComfyUI-Nunchaku\\ComfyUI-Nunchaku\\ComfyUI-Easy-Install\\ComfyUI\\models\\unet\n\n----------------------------------------------------------------\n\nQwen Image Edit 2509 Text Encoder Fp8:\n\n[Download](https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors?download=true)\n\nPut it in this folder : \\ComfyUi Nunchaco\\ComfyUI-Nunchaku\\ComfyUI-Nunchaku\\ComfyUI-Easy-Install\\ComfyUI\\models\\text_encoders\n\n----------------------------------------------------------------\n\nQwen Image Edit 2509 Vae:\n\n[Download](https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors?download=true)\n\nPut it in this folder : \\ComfyUi Nunchaco\\ComfyUI-Nunchaku\\ComfyUI-Nunchaku\\ComfyUI-Easy-Install\\ComfyUI\\models\\vae\n\n----------------------------------------------------------------\n\nQwen Image Edit 2509 Lightning loras:\n\n[Download](https://huggingface.co/Aitrepreneur/FLX/resolve/main/Qwen-Image-Edit-Lightning-4steps-V1.0.safetensors?download=true)\n\nPut it in this folder : \\ComfyUi Nunchaco\\ComfyUI-Nunchaku\\ComfyUI-Nunchaku\\ComfyUI-Easy-Install\\ComfyUI\\models\\loras\n\n"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    }
+  ],
+  "links": [
+    [
+      130,
+      69,
+      0,
+      72,
+      2,
+      "VAE"
+    ],
+    [
+      135,
+      72,
+      0,
+      74,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      136,
+      72,
+      1,
+      74,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      137,
+      72,
+      2,
+      74,
+      3,
+      "LATENT"
+    ],
+    [
+      138,
+      74,
+      0,
+      76,
+      0,
+      "LATENT"
+    ],
+    [
+      139,
+      69,
+      0,
+      76,
+      1,
+      "VAE"
+    ],
+    [
+      217,
+      67,
+      0,
+      88,
+      0,
+      "MODEL"
+    ],
+    [
+      230,
+      160,
+      0,
+      88,
+      1,
+      "CLIP"
+    ],
+    [
+      231,
+      162,
+      0,
+      161,
+      0,
+      "MODEL"
+    ],
+    [
+      232,
+      161,
+      0,
+      74,
+      0,
+      "MODEL"
+    ],
+    [
+      233,
+      88,
+      0,
+      162,
+      0,
+      "MODEL"
+    ],
+    [
+      236,
+      163,
+      0,
+      72,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      237,
+      164,
+      0,
+      72,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      238,
+      88,
+      1,
+      163,
+      0,
+      "CLIP"
+    ],
+    [
+      239,
+      88,
+      1,
+      164,
+      0,
+      "CLIP"
+    ],
+    [
+      246,
+      78,
+      0,
+      72,
+      3,
+      "IMAGE"
+    ],
+    [
+      248,
+      76,
+      0,
+      94,
+      0,
+      "IMAGE"
+    ],
+    [
+      251,
+      77,
+      0,
+      163,
+      3,
+      "IMAGE"
+    ],
+    [
+      252,
+      78,
+      0,
+      163,
+      2,
+      "IMAGE"
+    ],
+    [
+      253,
+      69,
+      0,
+      163,
+      1,
+      "VAE"
+    ],
+    [
+      254,
+      78,
+      0,
+      166,
+      0,
+      "IMAGE"
+    ],
+    [
+      255,
+      76,
+      0,
+      166,
+      1,
+      "IMAGE"
+    ],
+    [
+      257,
+      78,
+      1,
+      167,
+      0,
+      "MASK"
+    ],
+    [
+      258,
+      167,
+      0,
+      72,
+      4,
+      "MASK"
+    ],
+    [
+      259,
+      167,
+      0,
+      168,
+      0,
+      "MASK"
+    ]
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "title": "Put on any clothes V5",
+      "bounding": [
+        -293.6317443847656,
+        1417.384521484375,
+        3982.3310546875,
+        1370.9744873046875
+      ],
+      "color": "#8AA",
+      "font_size": 24,
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 1.1671841070450009,
+      "offset": [
+        1199.4134866905645,
+        -1481.0768956589607
+      ]
+    },
+    "frontendVersion": "1.25.8",
+    "ue_links": [],
+    "0246.VERSION": [
+      0,
+      0,
+      4
+    ],
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0,
+    "VHS_MetadataImage": true,
+    "VHS_KeepIntermediate": true
+  },
+  "version": 0.4
+}
