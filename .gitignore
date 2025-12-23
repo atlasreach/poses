@@ -1,7 +1,5 @@
-# Environment variables (KEEP SECRETS OUT OF GIT!)
-.env
-.env.local
-.env*.local
+# Environment variables
+# (.env.local is tracked in this repo)
 
 # Python
 __pycache__/
