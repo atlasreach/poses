@@ -1,0 +1,173 @@
+[
+  {
+    "id": "creation_001",
+    "source": "nana_banana",
+    "sourceImageUrl": "https://madison-morgan-instagram.s3.us-east-2.amazonaws.com/madison-morgan/posts/3776565816855744260/image_000.jpg",
+    "url": "https://madison-morgan-instagram.s3.us-east-2.amazonaws.com/madison-morgan/edited_tests/2k_waikiki_white_bikini.jpg",
+    "title": "Waikiki Beach - White Triangle Bikini",
+    "description": "Sharp background (f/11), white triangle bikini, Waikiki Beach with Diamond Head crater visible",
+    "resolution": "2K",
+    "cost": "$0.134",
+    "generatedAt": "2025-12-23T21:21:02.000Z",
+    "metadata": {
+      "location": "Waikiki Beach, Oahu",
+      "bikini_style": "white triangle bikini",
+      "depth_of_field": "f/11 deep (sharp background)",
+      "lens": "24mm wide-angle",
+      "style": "Professional landscape travel photography"
+    }
+  },
+  {
+    "id": "creation_002",
+    "source": "nana_banana",
+    "sourceImageUrl": "https://madison-morgan-instagram.s3.us-east-2.amazonaws.com/madison-morgan/posts/3776565816855744260/image_000.jpg",
+    "url": "https://madison-morgan-instagram.s3.us-east-2.amazonaws.com/madison-morgan/edited_tests/2k_lanikai_floral_bikini.jpg",
+    "title": "Lanikai Beach - Floral Bikini (Blurry)",
+    "description": "Blurry background (f/2.8), tropical floral bikini, Lanikai Beach",
+    "resolution": "2K",
+    "cost": "$0.134",
+    "generatedAt": "2025-12-23T21:21:03.000Z",
+    "metadata": {
+      "location": "Lanikai Beach, Oahu",
+      "bikini_style": "vibrant tropical floral print bikini",
+      "depth_of_field": "f/2.8 shallow (blurry background)",
+      "lens": "35mm",
+      "style": "Professional portrait photography"
+    }
+  },
+  {
+    "id": "creation_003",
+    "source": "nana_banana",
+    "sourceImageUrl": "https://madison-morgan-instagram.s3.us-east-2.amazonaws.com/madison-morgan/posts/3776565816855744260/image_000.jpg",
+    "url": "https://madison-morgan-instagram.s3.us-east-2.amazonaws.com/madison-morgan/edited_tests/2k_lanikai_floral_SHARP.jpg",
+    "title": "Lanikai Beach - Floral Bikini (Sharp)",
+    "description": "Sharp background (f/11), tropical floral bikini, Mokulua Islands clearly visible",
+    "resolution": "2K",
+    "cost": "$0.134",
+    "generatedAt": "2025-12-23T21:25:50.000Z",
+    "metadata": {
+      "location": "Lanikai Beach, Oahu - Mokulua Islands",
+      "bikini_style": "vibrant tropical floral print bikini",
+      "depth_of_field": "f/11 deep (sharp background)",
+      "lens": "24mm wide-angle",
+      "style": "Professional landscape travel photography"
+    }
+  },
+  {
+    "id": "creation_004",
+    "source": "nana_banana",
+    "sourceImageUrl": "https://madison-morgan-instagram.s3.us-east-2.amazonaws.com/madison-morgan/posts/3776565816855744260/image_000.jpg",
+    "url": "https://madison-morgan-instagram.s3.us-east-2.amazonaws.com/madison-morgan/edited_tests/2k_sunset_black_bikini.jpg",
+    "title": "Sunset Beach - Black Sporty Bikini",
+    "description": "Black athletic bikini, surfers visible in background, Sunset Beach waves",
+    "resolution": "2K",
+    "cost": "$0.134",
+    "generatedAt": "2025-12-23T21:21:04.000Z",
+    "metadata": {
+      "location": "Sunset Beach, North Shore Oahu",
+      "bikini_style": "sleek black sporty athletic bikini",
+      "depth_of_field": "f/5.6 moderate (balanced)",
+      "lens": "35mm",
+      "style": "Professional travel photography",
+      "background_elements": "surfers in the distance riding waves"
+    }
+  },
+  {
+    "id": "creation_005",
+    "source": "nana_banana",
+    "sourceImageUrl": "https://madison-morgan-instagram.s3.us-east-2.amazonaws.com/madison-morgan/posts/3776565816855744260/image_000.jpg",
+    "url": "https://madison-morgan-instagram.s3.us-east-2.amazonaws.com/madison-morgan/edited_tests/2k_saints_bikini.jpg",
+    "title": "New Orleans Saints Themed Bikini",
+    "description": "Black and gold Saints bikini with fleur-de-lis symbols, beach background",
+    "resolution": "2K",
+    "cost": "$0.134",
+    "generatedAt": "2025-12-23T21:31:42.000Z",
+    "metadata": {
+      "location": "Beach setting",
+      "bikini_style": "New Orleans Saints themed bikini - black and gold with fleur-de-lis symbols and metallic accents",
+      "depth_of_field": "f/5.6 moderate",
+      "lens": "35mm",
+      "style": "Professional sports fashion photography",
+      "theme": "New Orleans Saints NFL"
+    }
+  },
+  {
+    "id": "creation_006",
+    "source": "nana_banana",
+    "sourceImageUrl": "https://madison-morgan-instagram.s3.us-east-2.amazonaws.com/madison-morgan/posts/3776565816855744260/image_000.jpg",
+    "url": "https://madison-morgan-instagram.s3.us-east-2.amazonaws.com/madison-morgan/edited_tests/2k_lsu_bikini.jpg",
+    "title": "LSU Tigers Themed Bikini",
+    "description": "Purple and gold LSU bikini with tiger stripe pattern, beach background",
+    "resolution": "2K",
+    "cost": "$0.134",
+    "generatedAt": "2025-12-23T21:31:43.000Z",
+    "metadata": {
+      "location": "Beach setting",
+      "bikini_style": "LSU Tigers themed bikini - purple and gold with tiger stripe pattern",
+      "depth_of_field": "f/5.6 moderate",
+      "lens": "35mm",
+      "style": "Professional sports fashion photography",
+      "theme": "LSU Tigers College Football"
+    }
+  },
+  {
+    "id": "creation_007",
+    "source": "nana_banana",
+    "sourceImageUrl": "https://madison-morgan-instagram.s3.us-east-2.amazonaws.com/madison-morgan/posts/3776565816855744260/image_000.jpg",
+    "url": "https://madison-morgan-instagram.s3.us-east-2.amazonaws.com/madison-morgan/edited_tests/waikiki_beach_test.jpg",
+    "title": "Waikiki Beach Test (1K)",
+    "description": "Initial test generation - Waikiki Beach background",
+    "resolution": "1K",
+    "cost": "$0.134",
+    "generatedAt": "2025-12-23T21:05:58.000Z",
+    "metadata": {
+      "location": "Waikiki Beach, Oahu",
+      "note": "First test generation"
+    }
+  },
+  {
+    "id": "creation_008",
+    "source": "nana_banana",
+    "sourceImageUrl": "https://madison-morgan-instagram.s3.us-east-2.amazonaws.com/madison-morgan/posts/3776565816855744260/image_000.jpg",
+    "url": "https://madison-morgan-instagram.s3.us-east-2.amazonaws.com/madison-morgan/edited_tests/version1_waikiki.jpg",
+    "title": "Waikiki Beach v1 (1K)",
+    "description": "Early version - Waikiki Beach with blurry background",
+    "resolution": "1K",
+    "cost": "$0.134",
+    "generatedAt": "2025-12-23T21:11:15.000Z",
+    "metadata": {
+      "location": "Waikiki Beach, Oahu",
+      "depth_of_field": "f/2.8 shallow (blurry)"
+    }
+  },
+  {
+    "id": "creation_009",
+    "source": "nana_banana",
+    "sourceImageUrl": "https://madison-morgan-instagram.s3.us-east-2.amazonaws.com/madison-morgan/posts/3776565816855744260/image_000.jpg",
+    "url": "https://madison-morgan-instagram.s3.us-east-2.amazonaws.com/madison-morgan/edited_tests/version2_lanikai.jpg",
+    "title": "Lanikai Beach v2 (1K)",
+    "description": "Early version - Lanikai Beach with blurry background",
+    "resolution": "1K",
+    "cost": "$0.134",
+    "generatedAt": "2025-12-23T21:11:16.000Z",
+    "metadata": {
+      "location": "Lanikai Beach, Oahu",
+      "depth_of_field": "f/2.8 shallow (blurry)"
+    }
+  },
+  {
+    "id": "creation_010",
+    "source": "nana_banana",
+    "sourceImageUrl": "https://madison-morgan-instagram.s3.us-east-2.amazonaws.com/madison-morgan/posts/3776565816855744260/image_000.jpg",
+    "url": "https://madison-morgan-instagram.s3.us-east-2.amazonaws.com/madison-morgan/edited_tests/version3_sunset_beach.jpg",
+    "title": "Sunset Beach v3 (1K)",
+    "description": "Early version - Sunset Beach with blurry background",
+    "resolution": "1K",
+    "cost": "$0.134",
+    "generatedAt": "2025-12-23T21:11:17.000Z",
+    "metadata": {
+      "location": "Sunset Beach, North Shore Oahu",
+      "depth_of_field": "f/2.8 shallow (blurry)"
+    }
+  }
+]

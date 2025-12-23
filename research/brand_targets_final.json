@@ -1,0 +1,223 @@
+{
+  "research_date": "2025-12-19",
+  "follower_range": "10k-250k",
+  "total_brands": 16,
+  "us_brands": 10,
+  "international_brands": 6,
+  "status": "ready_to_scrape",
+  "brands": [
+    {
+      "id": 1,
+      "brand": "Vitamin A",
+      "instagram": "@vitaminaswim",
+      "followers": 228000,
+      "location": "California, USA",
+      "website": "https://www.vitaminaswim.com",
+      "notes": "Sustainable, made in California, 1% for the Planet member",
+      "platform": "shopify"
+    },
+    {
+      "id": 2,
+      "brand": "Midori Bikinis",
+      "instagram": "@midoribikinis",
+      "followers": 221000,
+      "location": "International",
+      "website": "https://midoribikinis.com",
+      "notes": "Small-batch sustainable bikinis",
+      "platform": "shopify"
+    },
+    {
+      "id": 3,
+      "brand": "Jaded Swimwear",
+      "instagram": "@jaded_swim",
+      "followers": 79300,
+      "location": "International",
+      "website": "https://jadedswim.com",
+      "notes": "High-fashion, 33.98% growth rate, 1.45% engagement",
+      "platform": "shopify"
+    },
+    {
+      "id": 4,
+      "brand": "OH LOLA SWIMWEAR",
+      "instagram": "@ohlolaswimwear",
+      "followers": 76000,
+      "location": "USA",
+      "website": "https://ohlolaswimwear.com",
+      "notes": "Caribbean vibes, luxury micro bikinis",
+      "platform": "shopify"
+    },
+    {
+      "id": 5,
+      "brand": "BeachCandy Organics",
+      "instagram": "@beachcandyorganics",
+      "followers": 55000,
+      "location": "California, USA",
+      "website": "https://beachcandyswimwear.com",
+      "notes": "Organic swimwear, worn by Dallas Cowboy Cheerleaders",
+      "platform": "shopify"
+    },
+    {
+      "id": 6,
+      "brand": "ISMÊ Swim",
+      "instagram": "@ismeswim",
+      "followers": 49000,
+      "location": "International",
+      "website": "https://ismeswim.com",
+      "notes": "Brazilian-inspired, textured fabrics, already scraped",
+      "platform": "shopify"
+    },
+    {
+      "id": 8,
+      "brand": "Tinye Swimwear",
+      "instagram": "@tinyeswim",
+      "followers": 33000,
+      "location": "Miami, USA",
+      "website": "https://tinyeswim.com",
+      "notes": "Latin-American inspired, cheeky bikinis",
+      "platform": "shopify"
+    },
+    {
+      "id": 9,
+      "brand": "Cover Swim",
+      "instagram": "@coverswim",
+      "followers": 24454,
+      "location": "Dallas, USA",
+      "website": "https://coverswim.com",
+      "notes": "Sun-protective swimwear, blocks 98% of UV rays",
+      "platform": "shopify"
+    },
+    {
+      "id": 11,
+      "brand": "Loco Boutique",
+      "instagram": "@locoboutique",
+      "followers": 21000,
+      "location": "Hawaii, USA",
+      "website": "https://locoboutique.com",
+      "notes": "Hawaii's premier swim shop since 1978",
+      "platform": "shopify"
+    },
+    {
+      "id": 12,
+      "brand": "Kadan Swimwear",
+      "instagram": "@kadanswimwear",
+      "followers": 20000,
+      "location": "Florida Keys, USA",
+      "website": "https://kadanswimwear.com",
+      "notes": "Female-owned, luxury, handmade in USA",
+      "platform": "shopify"
+    },
+    {
+      "id": 13,
+      "brand": "Fortunata",
+      "instagram": "@fortunatabrand",
+      "followers": 20000,
+      "location": "Barcelona, Spain",
+      "website": null,
+      "notes": "Extravagant swimwear designed in Barcelona",
+      "platform": "unknown"
+    },
+    {
+      "id": 14,
+      "brand": "NALLA",
+      "instagram": "@nalla_swimwear",
+      "followers": 20000,
+      "location": "International",
+      "website": null,
+      "notes": "Versatile one piece designs",
+      "platform": "unknown"
+    },
+    {
+      "id": 16,
+      "brand": "Bad N Bare",
+      "instagram": "@badnbareswim",
+      "followers": 20000,
+      "location": "London, UK",
+      "website": null,
+      "notes": "British luxury resortwear",
+      "platform": "unknown"
+    },
+    {
+      "id": 17,
+      "brand": "SURI swimwear",
+      "instagram": "@suriswimwear",
+      "followers": 20000,
+      "location": "Portugal",
+      "website": null,
+      "notes": "Made in Portugal",
+      "platform": "unknown"
+    },
+    {
+      "id": 18,
+      "brand": "Sal na Areia",
+      "instagram": "@salnaareia.swimwear",
+      "followers": 20000,
+      "location": "Portugal",
+      "website": null,
+      "notes": "Portuguese swimwear, personalized bikinis",
+      "platform": "unknown"
+    },
+    {
+      "id": 19,
+      "brand": "Change Swim",
+      "instagram": "@changeswim",
+      "followers": 16000,
+      "location": "Tampa, USA",
+      "website": null,
+      "notes": "Ethically made, woman-owned",
+      "platform": "unknown"
+    },
+    {
+      "id": 20,
+      "brand": "Swamis Swimwear",
+      "instagram": "@swamisswimwear",
+      "followers": 12961,
+      "location": "USA",
+      "website": "https://swamisswimwear.com",
+      "notes": "Mom-daughter duo, sustainable, small batch",
+      "platform": "shopify"
+    },
+    {
+      "id": 21,
+      "brand": "NOMADS Swimwear",
+      "instagram": "@nomadsswimwear",
+      "followers": 12000,
+      "location": "Los Angeles, USA",
+      "website": "https://nomadsswimwear.com",
+      "notes": "Size-inclusive XS-5X, biodegradable fabrics, Black woman-owned",
+      "platform": "shopify"
+    },
+    {
+      "id": 14,
+      "brand": "sun bleached",
+      "instagram": "@sunbleachedswim",
+      "followers": 34000,
+      "location": "International",
+      "website": "https://sunbleachedswim.com",
+      "notes": "Sustainable swimwear, always sun-kissed + salty",
+      "platform": "shopify",
+      "priority": "high"
+    },
+    {
+      "id": 15,
+      "brand": "OOKIOH",
+      "instagram": "@ookioh",
+      "followers": 24000,
+      "location": "International",
+      "website": "https://ookioh.com",
+      "notes": "100% regenerated materials, trendy",
+      "platform": "shopify",
+      "priority": "high"
+    },
+    {
+      "id": 16,
+      "brand": "Haikini",
+      "instagram": "@haikini.co",
+      "followers": 20000,
+      "location": "International",
+      "website": "https://haikini.co",
+      "notes": "Surf wear, small batch, ethical & sustainable",
+      "platform": "shopify",
+      "priority": "high"
+    }
+  ]
+}

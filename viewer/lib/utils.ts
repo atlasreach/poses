@@ -1,3 +1,4 @@
 export function getProxiedImageUrl(originalUrl: string): string {
-  return `/api/proxy-image?url=${encodeURIComponent(originalUrl)}`;
+  // Return the original URL directly without proxying
+  return originalUrl;
 }

@@ -263,7 +263,59 @@
   {
     "product_id": 10178965438781,
     "product_title": "PITAYA - Bandeau Top",
-    "product_url": "https://ismeswim.com/products/pitaya-bandeau-top",
+    "product_url": "https://i
+Pods
+
+eligible_rose_anteater
+
+
+Connect
+
+Details
+
+Telemetry
+
+Logs
+
+Template Readme
+
+Web Terminal
+HTTP services
+Connect to your service using HTTP using a proxied domain and port
+
+Port 8188
+
+ComfyUI
+Ready
+Port 8888
+
+JupyterLab
+Ready
+SSH
+Connect to your Pod using SSH. (No support for SCP & SFTP)
+
+$
+ssh 3cikg3z38uketc-64411b01@ssh.runpod.io -i ~/.ssh/id_ed25519
+SSH over exposed TCP
+Connect to your Pod using SSH over a direct TCP connection. (Supports SCP & SFTP)
+
+$
+ssh root@103.196.86.228 -p 18761 -i ~/.ssh/id_ed25519
+Web terminal
+Connect to your Pod using a terminal directly in your browser
+
+
+Enable web terminal
+
+Port 19123
+
+Open web terminal
+Direct TCP ports
+Connect to your Pod using direct TCP connections to exposed ports.
+
+TCP Port  103.196.86.228:18761
+
+:22smeswim.com/products/pitaya-bandeau-top",
     "image_url": "https://cdn.shopify.com/s/files/1/0868/1268/8701/files/30FFA052-29A0-45BE-94C1-9C8DAF3636C1.jpg?v=1765423601",
     "image_id": 61042609422653,
     "width": 3024,
